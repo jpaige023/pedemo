@@ -1,0 +1,10 @@
+---
+kind: Secret
+apiVersion: v1
+metadata:
+  name: gitlab-pull-secret
+  namespace: pedemo-wuzi-user0
+type: kubernetes.io/dockerconfigjson
+data:
+  .dockerconfigjson: eyJhdXRocyI6eyJyZWdpc3RyeS5naXRsYWIuY29tIjp7InVzZXJuYW1lIjoicGVkZW1vaWQiLCJwYXNzd29yZCI6ImdsZHQtaFY1aUt5Zzh5Q0FRUGp5NC1mVmEiLCJlbWFpbCI6InBlaWRAY2R3LmNvbSIsImF1dGgiOiJjR1ZrWlcxdmFXUTZaMnhrZEMxb1ZqVnBTM2xuT0hsRFFWRlFhbmswTFdaV1lRPT0ifX19
+
